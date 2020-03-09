@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+  }
+
+  button.StartBtn.mat-button.mat-button-base {
+    float: right;
+    background: #b0e85a;
+    border-radius: 20px;
+    color: darkgreen;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    float: left;
+    margin-left: 30px;
+}
+
+.mat-progress-bar {
+    width: 64% !important;
+}

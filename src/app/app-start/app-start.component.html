@@ -1,0 +1,109 @@
+<div class="container">
+
+
+
+    <div class="row footer_">
+        <!-- ====  -->
+  
+      <div class="col-sm">
+  
+  
+       <h2>Let’s setup your account:</h2>
+
+       <p class="pnt">1. Personal Profile</p>
+
+       <p class="pnt">2. Team Account</p>
+
+       <p class="pnt">3. Invite Collegues</p>
+
+       <p class="pnt">4. Integrations</p>
+  
+    </div>
+
+    <div class="col-sm">
+  
+      <div class="Data_Collect_Box" *ngIf="complete1">
+
+        <div class="item_">
+          <img src="../../assets/img_placeholder.png" class="placehoder_">
+          <button class="upload">Upload your photo</button>
+        </div>
+        <div class="item_">
+          <p class="label_">Full Name</p>
+          <input class="in_custom" placeholder="e.g. Jazzy Gill">
+            </div>
+            <div class="item_">
+          <p class="label_">Job Title</p>
+          <input class="in_custom" placeholder="e.g. Co-Founder / CEO">
+</div>
+<div class="item_">
+          <p class="label_">Email</p>
+          <input class="in_custom" placeholder="">
+</div>
+<div class="item_">
+          <p class="label_">Password</p>
+          <input class="in_custom" class="" placeholder="Setup Password">
+</div>
+
+
+          <button mat-button class="save_" (click)="NextStep()">Save and Continue</button>
+
+
+      </div>
+
+
+
+      <div class="Data_Collect_Box" *ngIf="complete2">
+
+        <div class="item_">
+            <p class="label_">Company Name</p>
+            <input class="in_custom" class="" placeholder="e.g. Redcrix">
+  </div>
+
+  <div class="item_">
+    <p class="label_">Team Size</p>
+
+        <mat-select>
+          <mat-option *ngFor="let t of teamSize" [value]="t.value">
+            {{t.viewValue}}
+          </mat-option>
+        </mat-select>
+
+</div>
+
+
+<div class="item_">
+    <p class="label_">How Did You Hear About Us</p>
+
+        <mat-select>
+          <mat-option *ngFor="let t of HearAbout" [value]="t.value">
+            {{t.viewValue}}
+          </mat-option>
+        </mat-select>
+
+</div>
+
+
+<button mat-button class="CreateBtn" (click)="Create()" >Skip Integrations & Continue</button>
+
+
+
+
+
+      </div>
+   
+     </div>
+
+
+    </div>
+
+    </div>
+
+
+        
+
+        
+        
+    
+        
+

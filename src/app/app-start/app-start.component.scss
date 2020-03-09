@@ -1,0 +1,117 @@
+.col-sm {
+    display: inline-block;
+    margin: 0;
+    min-width: 10px;
+}
+
+.row.footer_ {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;;
+    flex-wrap: wrap;
+}
+
+
+.Data_Collect_Box {
+    border: 1px solid lightgray;
+    padding: 32px;
+}
+
+img.placehoder_ {
+    border-radius: 60px;
+    width: 44px;
+    height: 44px;
+}
+
+
+.col-sm {
+    display: inline-block;
+    margin: 0;
+    min-width: 10px;
+}
+
+.row.footer_ {
+    display: flex;
+    width: 100%;
+  
+    flex-wrap: wrap;
+}
+
+.containerFooter {
+    max-width: 1220px;
+    padding: 0 40px;
+    margin: 0 auto;
+    width: 100%;
+    background: #151616;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 40px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+a.a_ {
+    color: floralwhite;
+    padding-bottom: 3px;
+}
+
+a.a_ :hover{
+    color: rgb(221, 0, 49) !important;
+    padding-bottom: 3px;
+}
+
+a._a_title {
+    color: gray;
+    padding-bottom: 3px;
+}
+
+a._a_title:hover {
+  color: gray;
+  padding-bottom: 3px;
+}
+
+
+button.CreateBtn.mat-button.mat-button-base {
+    background: #b0e85a;
+    margin-top: 27px;
+    border-radius: 20px;
+    color: darkgreen;
+}
+
+button.save_.mat-button.mat-button-base {
+    background: #b0e85a;
+    margin-top: 27px;
+    border-radius: 20px;
+    color: darkgreen;
+}
+
+
+input {
+    border: 1px solid lightgray;
+    width: 207px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+p.label_ {
+    font-size: 14px;
+    margin-bottom: 4px;
+    margin-top: 32px;
+    color: lightslategray;
+}
+
+button.StartBtn.mat-button.mat-button-base {
+    float: right;
+    background: #b0e85a;
+    border-radius: 20px;
+    color: darkgreen;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+

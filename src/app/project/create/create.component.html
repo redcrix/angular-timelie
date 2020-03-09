@@ -1,0 +1,47 @@
+<div id="modal-content-wrapper">
+
+
+    <div class="item_">
+        <p class="label_">Project Name</p>
+        <input class="in_custom" placeholder="">
+</div>
+
+<div class="item_">
+    <p class="label_">Client</p>
+
+        <mat-select>
+          <mat-option *ngFor="let t of teamSize" [value]="t.value">
+            {{t.viewValue}}
+          </mat-option>
+        </mat-select>
+
+</div>
+
+<div class="item_">
+    <p class="label_">Members</p>
+
+        <mat-select>
+          <mat-option *ngFor="let t of teamSize" [value]="t.value">
+            {{t.viewValue}}
+          </mat-option>
+        </mat-select>
+
+</div>
+
+<div class="item_">
+    <p class="label_">Who Can Manage Tasks    </p>
+
+    <mat-radio-group >
+        <mat-radio-button value="1">Everyone</mat-radio-button>
+        <mat-radio-button value="2">Only Admin</mat-radio-button>
+      </mat-radio-group>
+</div>
+
+<button mat-button class="CreateBtn" (click)="actionFunction()" >Create Project</button>
+
+
+
+<button mat-button class="CreateBtn" (click)="closeModal()" >Cancel</button>
+
+
+</div>
